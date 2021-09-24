@@ -26,3 +26,19 @@ var calcularPerimetroCirculo = () => {
     document.querySelector("#resultado-perimetro").innerHTML = resultado
 }
 //saul
+const areaDelCuadrado = (Lado) => Lado* Lado ;
+const perimetroDelCUadrado = (Lado) => Lado+Lado+Lado+Lado;
+
+var calcularAreaCuadrado = () => {
+
+    const lado = document.querySelector("#lado-cuadrado").value;
+    const resultado = areaDelCuadrado(Lado)
+    document.querySelector("#resultado-area").innerHTML = resultado
+}
+
+var calcularPerimetroCuadrado = () => {
+
+    const lado = document.querySelector("#lado-cuadrado").value;
+    const resultado = perimetroDelCuadrado(radio)
+    document.querySelector("#resultado-perimetro").innerHTML = resultado
+}
